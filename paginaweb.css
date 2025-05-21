@@ -1,0 +1,167 @@
+/* MONAI CSS */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Header */
+.main-header .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.icon-person,
+.icon-menu {
+  width: 24px;
+  height: 24px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.main-banner .banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Nueva sección */
+.new-arrivals {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.product-item {
+  width: 100px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+/* BANNER DESCUENTOS */
+.discounts-banner img {
+  width: 100%;
+  display: block;
+}
+
+/* Secciones destacadas */
+.featured-sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+
+.section-item {
+  width: 45%;
+  text-align: center;
+}
+
+.section-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.red-text {
+  color: red;
+}
+
+/* Promoción liquidación */
+.liquidation-promo img {
+  width: 100%;
+  display: block;
+}
+
+/* FOOTER */
+.main-footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.footer-links-list li {
+  text-align: center;
+}
+
+.footer-links-list img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-media {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.payment-methods img {
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
